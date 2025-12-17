@@ -1,0 +1,45 @@
+repos:
+  # 기본 파일 체크
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace      # 파일 끝 공백 제거
+      - id: end-of-file-fixer        # 파일 끝 개행 추가 Unix/Linux 표준준수, 끝에 개행문자(\n)필요, 코드 일관성 
+      - id: check-yaml               # YAML 문법 체크 (docker-compose.yml)
+      - id: check-json               # JSON 문법 체크
+      - id: detect-private-key       # 개인 키 파일 감지
+
+  # 보안 체크
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.4.0
+    hooks:
+      - id: detect-secrets # 민감 데이터 감지
+        args: ['--baseline', '.secrets.baseline']
+
+  # Python 코드 품질
+  - repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+      - id: black                    # 코드 포맷팅
+        language_version: python3
+
+  - repo: https://github.com/PyCQA/flake8
+    rev: 6.0.0
+    hooks:
+      - id: flake8                   # 코드 스타일 체크
+        args: ['--max-line-length=100']
+
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort                    # import 정렬
+        args: ['--profile', 'black']
+
+  # Node.js 코드 품질
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v8.40.0
+    hooks:
+      - id: eslint # 자바스크립트 스타일
+        types: [javascript]
+        additional_dependencies: ['eslint']
+		
