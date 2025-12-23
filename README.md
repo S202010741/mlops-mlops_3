@@ -2,9 +2,9 @@
 # TMDB 데이터를 활용한 영화 평점 예측 서비스 개발 및 MLOps 파이프라인 구축
 ## ML 3조
 
-| ![정다영](https://avatars.githubusercontent.com/u/156163982?v=4) | ![김대섭](https://avatars.githubusercontent.com/u/156163982?v=4) | ![박성재](https://avatars.githubusercontent.com/u/156163982?v=4) | ![서효림](https://avatars.githubusercontent.com/u/156163982?v=4) | ![심우용](https://avatars.githubusercontent.com/u/156163982?v=4) |
+| ![정다영](https://avatars.githubusercontent.com/u/156163982?v=4) | ![김대섭](https://avatars.githubusercontent.com/u/156163982?v=4) | ![박성재](https://avatars.githubusercontent.com/u/156163982?v=4) | ![서효림](https://avatars.githubusercontent.com/u/156163982?v=4) | ![오패캠](https://avatars.githubusercontent.com/u/156163982?v=4) |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-|            [정다영](https://github.com/UpstageAILab)             |            [김대섭](https://github.com/UpstageAILab)             |            [박성재](https://github.com/UpstageAILab)             |            [서효림](https://github.com/UpstageAILab)             |            [심우용](https://github.com/UpstageAILab)             |
+|            [정다영](https://github.com/UpstageAILab)             |            [김대섭](https://github.com/UpstageAILab)             |            [박성재](https://github.com/UpstageAILab)             |            [서효림](https://github.com/UpstageAILab)             |            [오패캠](https://github.com/UpstageAILab)             |
 |                            팀장, 담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |
 
 
@@ -108,7 +108,7 @@ e.g. (샘플)
 
 ### Meeting & Project Progress Log
 
-- _Insert your meeting log link like Notion or Google Docs_
+- 프로젝트 관리 노션 페이지 : https://www.notion.so/MLOps-3-2d05a743976581afbbcfcaa7cb89dbc5?pvs=11
 
 ### Reference
 
